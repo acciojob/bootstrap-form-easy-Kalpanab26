@@ -4,9 +4,56 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+		crossorigin="anonymous">
 </head>
 
 <body>
+	<h2>Internship Form</h2>
+<form>
+	
+	<label for="firstname">First Name</label>
+	<input type="name" id="first-name-input" required/>
+
+	
+	<label for="lastname">Last Name</label>
+	<input type="name" id="last-name-input" required/>
+
+	
+	<label for="email">Email Address</label>
+	<input type="email" id="email-input" required/>
+
+	
+	<label for="college">College</label>
+	<input type="text" id="college-input" required/>
+
+	
+	<label for="firstname" >Graduation Year
+	<select id="first-name-input">
+		<option>2020</option>
+		<option>2021</option>
+		<option>2022</option>
+		<option>2023</option>
+	</select>
+	</label>
+	
+
+	
+	<label for="rollno">Roll No</label>
+	<input type="number" id=roll-no-input" required/>
+
+	<label for="conditions-checkbox">
+		<input type="checkbox" id="conditions-checkbox" 
+			   required/>
+		
+		Agree to terms and conditions
+	</label>
+	<submit>Submit Form</submit>
+</form>
+
+
+
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
